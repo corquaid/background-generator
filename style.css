@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font: 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .6em;
+  top: 15%;
+  margin: 0px 5px;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-top: 30px 0px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 30px 0px;
+}
+textarea {
+  color: black;
+  width: 450px;
+  height: 18px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: ;
+  font: bold 0.8em 'Trebuchet MS', sans-serif;
+  letter-spacing: 0.0em;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+footer p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.color1, .color2 {
+  border: 0.5px solid black;
+  margin: 20px;
+  height: 40px;
+  width: 75px;
+}
+
+.selector-group {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 50px auto;
+}
+
+.selector {
+  margin: 10px 50px;
+  height: 100px;
+  border: 2px solid rgba(0,0,0,.5);
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.selector p {
+  margin: 5px;
+}
+
+.footer {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-end;
+  align-items: center;
+}
+#copy-div {
+  margin: 50px auto;
+  width: 600px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button styles adopted from SOLOLEARN  
+  https://code.sololearn.com/WzbUU5ZwbHMG/#html */
+
+#random-button, #copy-button {
+  width: auto;
+  padding: 10px 25px;
+  margin: 20px auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: darkred;
+  border: 1px solid white;
+  border-radius: 15px;
+  text-transform: uppercase;
+  transition: 0.2s ease-in-out;
+}
+
+#random-button:focus, #copy-button:focus {
+  outline: none;
+}
+
+#random-button:active, #copy-button:active {
+  transform: translateY(3px);
+  transition: 0.2s ease-in-out;
+}
+
